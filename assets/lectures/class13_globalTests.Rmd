@@ -15,7 +15,7 @@ colNames <- paste0("x", 1:p)
 colnames(x) <- colNames
 ```
 
-Now we will generate our $y$s completely independently of all of our covariates. None of our $x$ variables are associated with our outcome!
+Now we will generate our $y$ s completely independently of all of our covariates. None of our $x$ variables are associated with our outcome!
 ```{r}
 y <- rnorm(nObs)
 ```
